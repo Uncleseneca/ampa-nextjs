@@ -1,7 +1,7 @@
 {
   "name": "@react-page-transition/use-nextjs",
   "main": "dist/index.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "git@github.com:Uncleseneca/-react-page-transition-use-nextjs.git",
   "author": "uncleseneca <uncleseneca@gmail.com>",
   "license": "MIT",
