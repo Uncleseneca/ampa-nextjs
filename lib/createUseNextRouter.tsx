@@ -14,33 +14,37 @@ export interface AnimationData {
 export const createUseNextRouter = () => (
   routeAnimations: RouteAnimationRaw[],
 ) => {
-  const [animationStyles, setAnimationStyles] = useState(dummy)
-  const [routes, setRoutes] = useState({
-    prevRoute: Router.asPath || '',
-    nextRoute: '',
-  })
+  if (typeof window !== 'undefined') {
+    const [animationStyles, setAnimationStyles] = useState(dummy)
+    const [routes, setRoutes] = useState({
+      prevRoute: Router.asPath || '',
+      nextRoute: '',
+    })
 
-  const pickAnimationCurried = useMemo(() => pickAnimation(routeAnimations), [
-    routeAnimations,
-  ])
+    const pickAnimationCurried = useMemo(() => pickAnimation(routeAnimations), [
+      routeAnimations,
+    ])
 
-  const onRouteChangeStart = (nextRoute: string) => {
-    setRoutes({ prevRoute: Router.asPath || '', nextRoute })
+    const onRouteChangeStart = (nextRoute: string) => {
+      setRoutes({ prevRoute: Router.asPath || '', nextRoute })
+    }
+
+    useLayoutEffect(() => {
+      const { prevRoute, nextRoute } = routes
+
+      const newAnimation = pickAnimationCurried(prevRoute, nextRoute)
+      setAnimationStyles(newAnimation)
+    }, [routes.nextRoute, routes.prevRoute])
+
+    useEffect(() => {
+      Router.events.on('routeChangeStart', onRouteChangeStart)
+      return () => {
+        Router.events.off('routeChangeStart', onRouteChangeStart)
+      }
+    }, [])
+
+    return { animationStyles, key: Router.asPath || '' }
   }
 
-  useLayoutEffect(() => {
-    const { prevRoute, nextRoute } = routes
-
-    const newAnimation = pickAnimationCurried(prevRoute, nextRoute)
-    setAnimationStyles(newAnimation)
-  }, [routes.nextRoute, routes.prevRoute])
-
-  useEffect(() => {
-    Router.events.on('routeChangeStart', onRouteChangeStart)
-    return () => {
-      Router.events.off('routeChangeStart', onRouteChangeStart)
-    }
-  }, [])
-
-  return { animationStyles, key: Router.asPath || '' }
+  return { animationStyles: dummy, key: '' }
 }
