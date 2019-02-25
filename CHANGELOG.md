@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.3](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/compare/v1.2.2...v1.2.3) (2019-02-25)
+
+
+### Bug Fixes
+
+* next router import ([bd471d5](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/commit/bd471d5))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [1.2.2](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/compare/v1.2.1...v1.2.2) (2019-02-25)
 
 
