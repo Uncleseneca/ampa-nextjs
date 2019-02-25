@@ -1,4 +1,4 @@
-import pathToRegExp from 'path-to-regexp'
+import * as pathToRegExp from 'path-to-regexp'
 
 export interface AnimationStyles {
   exit: string
