@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.5](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/compare/v1.2.4...v1.2.5) (2019-02-25)
+
+
+### Bug Fixes
+
+* add window presence check because of next/router ([84a5ce8](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/commit/84a5ce8))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [1.2.4](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/compare/v1.2.3...v1.2.4) (2019-02-25)
 
 
