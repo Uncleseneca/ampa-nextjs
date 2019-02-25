@@ -1,11 +1,11 @@
-# @react-page-transitions/use-nextjs
+# @react-page-transition/use-nextjs
 
-## Plugin for [@react-page-transitions/core](https://github.com/Uncleseneca/react-page-transition-core) to use with nextjs
+## Plugin for [@react-page-transition/core](https://github.com/Uncleseneca/react-page-transition-core) to use with nextjs
 
 ## Install
 
 ```sh
-yarn add @react-page-transitions/use-nextjs
+yarn add @react-page-transition/use-nextjs
 ```
 
 ## Example
