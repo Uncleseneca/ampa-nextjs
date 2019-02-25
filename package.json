@@ -1,0 +1,36 @@
+{
+  "name": "@react-page-transition/use-nextjs",
+  "main": "dist/index.js",
+  "version": "1.0.0",
+  "repository": "git@github.com:Uncleseneca/-react-page-transition-use-nextjs.git",
+  "author": "uncleseneca <uncleseneca@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@solid-soda/scripts": "^1.2.4",
+    "@team-griffin/install-self-peers": "^1.1.1",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3333"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn soda lint-staged",
+      "commit-msg": "yarn soda commitlint"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "s": "yarn soda",
+    "build": "rimraf dist && tsc",
+    "prepare": "install-self-peers -- --ignore-scripts && yarn build"
+  },
+  "peerDependencies": {
+    "next": ">=7.0.0",
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "dependencies": {
+    "path-to-regexp": "^3.0.0"
+  }
+}
