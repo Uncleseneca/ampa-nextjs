@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["es2017", "dom"],
+    "lib": ["es2017"],
     "module": "commonjs",
     "declaration": true,
     "noImplicitAny": false,
@@ -10,8 +10,8 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
-    "jsx": "react",
     "sourceMap": true,
+    "jsx": "react",
     "outDir": "./dist",
     "baseUrl": "./lib"
   },
