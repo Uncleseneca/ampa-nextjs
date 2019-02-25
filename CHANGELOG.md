@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# 1.2.0 (2019-02-25)
+
+
+### Bug Fixes
+
+* remove dom param from lib in tsconfig ([c3d7fe5](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/commit/c3d7fe5))
+
+
+### Features
+
+* initial commit ([0a92973](https://github.com/Uncleseneca/-react-page-transition-use-nextjs/commit/0a92973))
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 # 1.1.0 (2019-02-25)
 
 
