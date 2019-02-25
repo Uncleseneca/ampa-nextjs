@@ -1,4 +1,4 @@
-import * as Router from 'next/router'
+import Router from 'next/router'
 import { useEffect, useLayoutEffect, useMemo, useState } from 'react'
 import {
   AnimationStyles,
