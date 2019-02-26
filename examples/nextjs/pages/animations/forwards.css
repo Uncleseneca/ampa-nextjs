@@ -1,0 +1,30 @@
+/* from main page to secondary pages */
+.enter {
+  content: 'forwards';
+  opacity: 0;
+  transform: translate3d(100%, 0, 0);
+}
+
+.enter.enterActive {
+  will-change: transform, opacity;
+  content: 'forwards';
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 500ms ease-in-out,
+    transform 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.exit {
+  will-change: transform;
+  content: 'forwards';
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.exit.exitActive {
+  content: 'forwards';
+  opacity: 0;
+  transform: translate3d(-100%, 0, 0);
+  transition: opacity 400ms ease-in-out,
+    transform 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
