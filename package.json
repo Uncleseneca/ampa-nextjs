@@ -1,10 +1,10 @@
 {
-  "name": "@react-page-transition/use-nextjs",
+  "name": "@ampa/nextjs-router",
   "main": "dist/index.js",
-  "version": "1.2.5",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Uncleseneca/-react-page-transition-use-nextjs.git"
+    "url": "git+ssh://git@github.com/Uncleseneca/ampa-nextjs-router.git"
   },
   "author": "uncleseneca <uncleseneca@gmail.com>",
   "license": "MIT",
@@ -37,9 +37,9 @@
     "path-to-regexp": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/Uncleseneca/-react-page-transition-use-nextjs/issues"
+    "url": "https://github.com/Uncleseneca/ampa-nextjs-router/issues"
   },
-  "homepage": "https://github.com/Uncleseneca/-react-page-transition-use-nextjs#readme",
+  "homepage": "https://github.com/Uncleseneca/ampa-nextjs-router#readme",
   "directories": {
     "lib": "lib"
   }
