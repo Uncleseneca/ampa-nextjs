@@ -74,4 +74,4 @@ Available in [examples](./examples)
 
 To use page transitions with every router you need a suitable plugin
 
-[@ampa/nextjs](https://github.com/Uncleseneca/ampa-nextjs) is currently available for nextjs users
+[@ampa/nextjs-router](https://github.com/Uncleseneca/ampa-nextjs-router) is currently available for nextjs users
