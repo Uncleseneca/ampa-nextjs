@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@ampa/core@^1.2.11":
+  version "1.2.11"
+  resolved "https://registry.yarnpkg.com/@ampa/core/-/core-1.2.11.tgz#298c99e4eef1b3ef9af8e3c440e615b33913160f"
+  integrity sha512-GxxDPx0YwHLdFvZCKBStJqCWFLljnWTDY3YigfEgWpCfGf3zeOtrnQZeBp4nCD+pbXJ4AxXDebOcVtr1kJ9ePw==
+  dependencies:
+    path-to-regexp "^3.0.0"
+    react-transition-group "^2.5.3"
+
+"@ampa/nextjs-router@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@ampa/nextjs-router/-/nextjs-router-1.0.3.tgz#3b206d16fe9bcdd5b26409262016c1e5342f258d"
+  integrity sha512-VWex/PQmRUPI4mjDTPILVjlbazYMPWJTafqSxqy8pemkIK0v6fNpk5buz5CjCTo49Xirnae80t/5gepKae/sIQ==
+  dependencies:
+    path-to-regexp "^3.0.0"
+
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"
@@ -676,6 +691,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.1.2":
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
+  integrity sha512-IvfvnMdSaLBateu0jfsYIpZTxAc2cKEXEMiezGGN75QcBcecDUKd3PgLAncT0oOgxKy8dd8hrJKj9MfzgfZd6g==
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.1.2.tgz#090484a574fef5a2d2d7726a674eceda5c5b5644"
@@ -717,20 +739,6 @@
     esutils "^2.0.2"
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
-
-"@ampa/core@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@ampa/core/-/core-1.2.6.tgz#5957ede4c2ec8bfe06a141cccea77d0da566be13"
-  integrity sha512-a9Op3/wqFH3VxURFrK2bV8w7vXt0NKHkpdTj4io8IxauVSA482IkahOZcrKvHF1lvc3AB1Zd3odLr9ovi4SMcw==
-  dependencies:
-    path-to-regexp "^3.0.0"
-
-"@ampa/nextjs-router@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@ampa/nextjs-router/-/use-nextjs-1.2.5.tgz#44a20570984f21c5a9815761d57592b1c458f4c7"
-  integrity sha512-HVxi/VkzQ6qBM3l1qUtjQ4Jng5e2BmBsLWQpGDFShhUUngqiWDdg60TBpK3mueI3JXJiMzu2mIsGNedwhm8lxQ==
-  dependencies:
-    path-to-regexp "^3.0.0"
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -1794,6 +1802,13 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dom-helpers@^3.3.1:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.4.0.tgz#e9b369700f959f62ecde5a6babde4bccd9169af8"
+  integrity sha512-LnuPJ+dwqKDIyotW1VzmOZ5TONUN7CwkCR5hrgawTUbkBGYdeoNLZo6nNfGkCrjtE1nXXaj7iMMpDa8/d9WoIA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -3771,6 +3786,21 @@ react-is@^16.3.2, react-is@^16.8.1:
   version "16.8.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
   integrity sha512-Y4rC1ZJmsxxkkPuMLwvKvlL1Zfpbcu+Bf4ZigkHup3v9EfdYhAlWAaVyA19olXq2o2mGn0w+dFKvk3pVVlYcIA==
+
+react-lifecycles-compat@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-transition-group@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.5.3.tgz#26de363cab19e5c88ae5dbae105c706cf953bb92"
+  integrity sha512-2DGFck6h99kLNr8pOFk+z4Soq3iISydwOFeeEVPjTN6+Y01CmvbWmnN02VuTWyFdnRtIDPe+wy2q6Ui8snBPZg==
+  dependencies:
+    dom-helpers "^3.3.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+    react-lifecycles-compat "^3.0.4"
 
 react@^16.8.3:
   version "16.8.3"
