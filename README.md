@@ -51,7 +51,7 @@ const routeAnimations = [
 
 ```
 import { PageTransition } from '@ampa/core' // the core component
-import { createUseNextRouter } from '@ampa/nextjs-router' // one of the hooks for different routers
+import { createUseNextRouter } from '@ampa/nextjs-router' // one of the plugins for different routers
 ...
   <PageTransition
     useRouter={createUseNextRouter()}
