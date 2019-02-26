@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@react-page-transition/core": "^1.2.6",
-    "@react-page-transition/use-nextjs": "^1.2.5",
+    "@ampa/core": "^1.2.6",
+    "@ampa/nextjs-router": "^1.2.5",
     "@zeit/next-css": "^1.0.1",
     "next": "^8.0.3",
     "react": "^16.8.3",

@@ -1,7 +1,7 @@
 import React from 'react';
 import App, { Container } from 'next/app';
-import { PageTransition } from '@react-page-transition/core';
-import { createUseNextRouter } from '@react-page-transition/use-nextjs';
+import { PageTransition } from '@ampa/core';
+import { createUseNextRouter } from '@ampa/nextjs-router';
 
 import backwards from './animations/backwards.css';
 import forwards from './animations/forwards.css';

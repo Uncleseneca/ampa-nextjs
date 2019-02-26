@@ -718,16 +718,16 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@react-page-transition/core@^1.2.6":
+"@ampa/core@^1.2.6":
   version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@react-page-transition/core/-/core-1.2.6.tgz#5957ede4c2ec8bfe06a141cccea77d0da566be13"
+  resolved "https://registry.yarnpkg.com/@ampa/core/-/core-1.2.6.tgz#5957ede4c2ec8bfe06a141cccea77d0da566be13"
   integrity sha512-a9Op3/wqFH3VxURFrK2bV8w7vXt0NKHkpdTj4io8IxauVSA482IkahOZcrKvHF1lvc3AB1Zd3odLr9ovi4SMcw==
   dependencies:
     path-to-regexp "^3.0.0"
 
-"@react-page-transition/use-nextjs@^1.2.5":
+"@ampa/nextjs-router@^1.2.5":
   version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@react-page-transition/use-nextjs/-/use-nextjs-1.2.5.tgz#44a20570984f21c5a9815761d57592b1c458f4c7"
+  resolved "https://registry.yarnpkg.com/@ampa/nextjs-router/-/use-nextjs-1.2.5.tgz#44a20570984f21c5a9815761d57592b1c458f4c7"
   integrity sha512-HVxi/VkzQ6qBM3l1qUtjQ4Jng5e2BmBsLWQpGDFShhUUngqiWDdg60TBpK3mueI3JXJiMzu2mIsGNedwhm8lxQ==
   dependencies:
     path-to-regexp "^3.0.0"
