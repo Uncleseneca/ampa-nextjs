@@ -1,18 +1,18 @@
-# @react-page-transition/use-nextjs
+# @ampa/nextjs-router
 
-## Plugin for [@react-page-transition/core](https://github.com/Uncleseneca/react-page-transition-core) to use with nextjs
+## Plugin for [@ampa/core](https://github.com/Uncleseneca/ampa-core) to use with nextjs-router
 
 ## Install
 
 ```sh
-yarn add @react-page-transition/use-nextjs
+yarn add @ampa/nextjs-router
 ```
 
 ## Example
 
 ```
-import { PageTransition } from '@react-page-transition/core' // the core component
-import { createUseNextRouter } from '@react-page-transition/use-nextjs' // one of the hooks for different routers
+import { PageTransition } from '@ampa/core' // the core component
+import { createUseNextRouter } from '@ampa/nextjs-router' // one of the hooks for different routers
 ...
   <PageTransition
     useRouter={createUseNextRouter()}
