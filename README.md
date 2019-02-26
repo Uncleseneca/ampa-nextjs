@@ -17,7 +17,7 @@ yarn add @ampa/core
 To start annimating pages you need to do 2 things (there is an example below):
 
 - make animations config with CSS transitions
-- wrap your route components with `<PageTransition />` and use suitable hook (like [@ampa/nextjs](https://github.com/Uncleseneca/ampa-nextjs))
+- wrap your route components with `<PageTransition />` and use suitable plugin (like [@ampa/nextjs-router](https://github.com/Uncleseneca/ampa-nextjs))
 
 ## Example:
 
