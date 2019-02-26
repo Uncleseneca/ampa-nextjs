@@ -1,7 +1,7 @@
 {
   "name": "@ampa/core",
   "main": "dist/index.js",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "repository": "git@github.com:Uncleseneca/ampa-core.git",
   "author": "uncleseneca <uncleseneca@gmail.com>",
   "license": "MIT",
