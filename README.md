@@ -57,7 +57,7 @@ import { Ampa } from '@ampa/nextjs' // the core component
     routeAnimations={routeAnimations}
   >
     <Component {...pageProps} />
-  </PageTransition>
+  </Ampa>
 ```
 
 ## Example
