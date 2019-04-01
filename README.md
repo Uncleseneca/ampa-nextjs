@@ -1,5 +1,7 @@
 # @ampa/nextjs
 
+![Page transitions](https://media.giphy.com/media/4TvtsH44oz39uEnEKf/giphy.gif)
+
 ## Why?
 
 To create page transitions with nextjs router without pain
