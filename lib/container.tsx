@@ -27,6 +27,9 @@ export class Ampa extends React.Component<Props, State> {
       enter: 500,
       exit: 500,
     },
+    routeAnimations: [
+      { prevRoute: '/*', nextRoute: '/*', animationStyles: {} },
+    ],
   }
   public state = {
     animationStyles: {},
