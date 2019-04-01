@@ -2,11 +2,9 @@
 
 ![Page transitions](https://media.giphy.com/media/4TvtsH44oz39uEnEKf/giphy.gif)
 
-## Why?
+Сreate page transitions with nextjs router without pain
 
-To create page transitions with nextjs router without pain
-
-Allows to create route-based animations (different animations for different route combinations)
+Allows to create route-based animations (different animations for different routes)
 
 ## Install
 
@@ -16,7 +14,7 @@ yarn add @ampa/nextjs
 
 ## Usage
 
-To start annimating pages you need to do 2 things (there is an example below):
+To start animating pages you need to do 2 things (there is an example below):
 
 - make animations config with CSS transitions
 - wrap your page component with `<Ampa />`
