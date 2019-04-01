@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './styles.css';
-import Link from 'next/link';
+import React from 'react'
+import styles from './styles.css'
+import Link from 'next/link'
 
 function Second() {
   return (
@@ -11,7 +11,7 @@ function Second() {
         <a>first page</a>
       </Link>
     </div>
-  );
+  )
 }
 
-export default Second;
+export default Second

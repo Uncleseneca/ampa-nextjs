@@ -1,18 +1,20 @@
 {
-  "name": "@ampa/core",
+  "name": "@ampa/nextjs",
   "main": "dist/index.js",
-  "version": "1.2.12",
-  "repository": "git@github.com:Uncleseneca/ampa-core.git",
+  "version": "1.0.0",
+  "repository": "git@github.com:Uncleseneca/ampa.git",
   "author": "uncleseneca <uncleseneca@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@solid-soda/scripts": "^1.2.4",
     "@team-griffin/install-self-peers": "^1.1.1",
+    "@types/react": "^16.8.10",
     "rimraf": "^2.6.3",
     "typescript": "^3.3.3333"
   },
   "husky": {
     "hooks": {
+      "pre-commit": "yarn soda lint-staged",
       "commit-msg": "yarn soda commitlint"
     }
   },
@@ -25,10 +27,12 @@
     "prepare": "install-self-peers -- --ignore-scripts && yarn build"
   },
   "peerDependencies": {
-    "react": ">= 16.8.0",
-    "react-dom": ">= 16.8.0"
+    "next": ">=7.0.0",
+    "react": ">= 16.0.0",
+    "react-dom": ">= 16.0.0"
   },
   "dependencies": {
+    "lodash": "^4.17.11",
     "path-to-regexp": "^3.0.0",
     "react-transition-group": "^2.5.3"
   }
