@@ -63,7 +63,3 @@ import { Ampa } from '@ampa/nextjs'
 ## Example
 
 Available in [example](./example)
-
-## Requirements
-
-### React 16 and higher
