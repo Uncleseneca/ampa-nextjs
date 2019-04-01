@@ -1,7 +1,7 @@
 {
   "name": "@ampa/nextjs",
   "main": "dist/index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "git@github.com:Uncleseneca/ampa.git",
   "author": "uncleseneca <uncleseneca@gmail.com>",
   "license": "MIT",

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.1](https://github.com/Uncleseneca/ampa/compare/v1.2.12...v1.0.1) (2019-04-01)
+
+
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ## [1.2.12](https://github.com/Uncleseneca/ampa-core/compare/v1.2.11...v1.2.12) (2019-02-26)
 
 
