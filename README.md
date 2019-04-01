@@ -50,7 +50,7 @@ const routeAnimations = [
 ### 2) `<Ampa />`
 
 ```
-import { Ampa } from '@ampa/nextjs' // the core component
+import { Ampa } from '@ampa/nextjs'
 ...
   <Ampa
     timeout={{ enter: 500, exit: 500 }}
