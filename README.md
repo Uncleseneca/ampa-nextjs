@@ -60,6 +60,7 @@ import { Ampa } from '@ampa/nextjs'
   </Ampa>
 ```
 
-## Example
+### 3) Modify container styles
 
-Available in [example](./example)
+Library wraps content in two containers with classnames `react-page-transition-inner` and `react-page-transition-outer`.
+You can modify styles if these containers by changing styles globally.
